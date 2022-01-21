@@ -2,12 +2,12 @@
 apt install -y git
 
 # Configure user and email
-# Not used to login, used to track changes
+- Not used to login, used to track changes
 git config --global user.name "My Name"
 git config --global user..email "myemail@domain.com"
 
 # Initialise your Local Repository
-# (Working Directory)
+- (Working Directory)
 git init
 
 # Track Changes and Status of Local/Remote Repos
