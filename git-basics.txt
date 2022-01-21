@@ -19,6 +19,16 @@ git add myfilename.cool
 # Check Status
 git status
 
+# Commit to Remote Repository
+git commit -m "My notes"
+# -m = message
+
+# Committed!
+
+
+
+# Git Commit Logs
+git log
 
 
 # Staging -> To Commit
