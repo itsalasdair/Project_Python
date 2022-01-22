@@ -161,3 +161,52 @@ not True = False
 not 1 + 1 == 2
 ```
 ... would return ```False```
+
+
+**'Else' Operator**
+
+'Else' statements allow you to control what happens when certain 'if' conditions are not met.
+
+```
+myNum = 11
+
+if myNum >= 10:
+  print("Your number is greater than 10")
+else:
+  print("Your number is smaller than 10")
+```
+
+An 'elif' example scenario is for "Donator Ranks".
+
+```
+myDonation = 1481
+
+if myDonation >= 5000:
+  print("You have a Gold Rank!")
+elif myDonation >= 2500:
+  print("You have Silver Rank!")
+elif myDonation >= 1500:
+  print("You have Iron Rank!")
+elif myDonation >= 1000:
+  print("You have the Bronze Rank!")
+else:
+  print("You have the Supporter Rank!")
+```
+... if your donation was 6000, and the ```elif``` statements were all ```if``` statements, you would get multiple output lines as all of the conditions had been met.
+
+Another example for Grades at school:
+
+```
+grade = 86
+
+if grade >= 90:
+  print("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
+```
