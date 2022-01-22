@@ -78,3 +78,45 @@ bananas_in_bunch = 5
 
 print(price_of_bananas + bananas_in_bunch)
 ```
+
+
+# Modulo
+
+The Modulo component is a companion to the division operator and is indicated by ```%```\
+It gives the remainder of a division calculation
+
+Example:
+```
+print(29 % 5)
+```
+... prints 4. 29 / 5 is 5 with a remainder of 4
+
+
+# Concatenation
+
+You can concatenate strings with the ```+``` operator
+
+```
+greeting_text = "Hello there"
+question_text = "How are you doing?"
+full_text = greeting_text + question_text
+
+print(full_text)
+```
+... this prints "Hello thereHow are you doing?"
+
+We can add a space inbetween these 2 variables, or even add a comma:
+
+```
+full_text = greeting_text + ", " + question_text
+print(full_text)
+```
+... this prints "Hello there, How are you doing?"
+
+You can also define the formatting within the variable:
+
+```
+greeting_text = "Hello there, "
+question_text = "How are you doing?"
+full_text = greeting_text + question_text
+print(full_text)
