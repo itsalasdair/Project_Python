@@ -118,3 +118,46 @@ This is True
 (1 + 2 == 2) and (4 - 2 == 2)
 ```
 This is False
+
+Using an 'If' and an 'and' statement using our graduation code above, but adding in a GPA:
+
+```
+toms_credits = 128
+toms_gpa = 2.8
+
+if (toms_credits >= 120) and (toms_gpa >= 2.0):
+  print("You are going to graduate!")
+if (toms_credits < 120) and (toms_gpa < 2.0):
+  print("You aren't going to graduate...")
+```
+... both requirements (toms_credits) and (toms_gpa) need to be met before he can graduate.\
+In this case, if Tom's GPA was 1.8, the 'and' statement would be ```False``` and he could not graduate
+
+
+**'Or' Operator**
+
+'Or' operators compare two components of an expression, if at least one of these components is ```True```, the returned value would be ```True```.\
+Only 1 component needs to = True for this operator to return True
+
+Unfortunately, Tom has enough credits to graduate, however his GPA isn't good enough:
+
+```
+toms_credits = 128
+toms_gpa = 1.8
+
+if (toms_credits >= 120) or (toms_gpa >= 2.0):
+  print("You have passed one of the requirements")
+```
+
+**'Not' Operator**
+
+The 'Not' operator will reverse any value returned from an expression:
+
+```
+not True = False
+```
+... or
+```
+not 1 + 1 == 2
+```
+... would return ```False```
