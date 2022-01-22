@@ -176,3 +176,52 @@ people_plus_scores = [
 people_plus_scores[-3][-2] = 15
 ```
 ... this will change Harry's score to 15 using negative indices
+
+___
+
+Using ```.remove```, we can remove data from a value within the list. Let's add another column to our list - age:
+
+```
+names_scores_age = [
+  ["Tom", 18, 12],
+  ["Elliot", 21, 13],
+  ["Harry", 14, 12],
+  ["Scott", 16, 12],
+  ["Fred", 9, 13]
+]
+```
+... Elliot does not want his age shown - lets remove it with ```.remove```. We will need to input the **sub-list** of which the value exists:
+
+```
+names_scores_age = [
+  ["Tom", 18, 12],
+  ["Elliot", 21, 13],
+  ["Harry", 14, 12],
+  ["Scott", 16, 12],
+  ["Fred", 9, 13]
+]
+
+names_scores_age[1].remove(13)
+```
+
+# Round-Up of Lists
+
+```
+# Your code below: 
+customer_data = [
+  ["Ainsley", "Small", True],
+  ["Ben", "Large", False],
+  ["Chani", "Medium", True],
+  ["Depak", "Medium", False]
+]
+
+customer_data[2][2] = False
+customer_data[1].remove(False)
+
+new_data = [
+  ["Amit", "Large", True], ["Karim", "X-Large", False]
+]
+customer_data_final = customer_data + new_data
+
+print(customer_data_final)
+```
