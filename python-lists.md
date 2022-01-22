@@ -27,7 +27,7 @@ Empty lists can be used to input data at a later time:
 empty_list = []
 ```
 
-**List Methods**
+# List Methods
 
 Methods, and List Methods allow you to create, manipulate and delete data within a variable.
 
@@ -46,7 +46,7 @@ print(append_example)
 ['This', 'is', 'an', 'example', 'list']
 ```
 
-**Accessing List Elements**
+# Accessing List Elements
 
 Values within the list are assigned a number in the list, called an index. The index always starts at **0**, however will be referenced as the 1st value
 
@@ -69,7 +69,7 @@ print(my_list[0])
 ... Tom will be outputted
 
 
-**Negative Index**
+# Negative Index
 
 This can be used if you want to select the last item on the index, if you don't know what the last element index number is.
 
@@ -82,8 +82,10 @@ print(my_list[-1])
 ```
 ... Fred will be outputted
 
+You can also use it to work back from the end of the list. Eg, ```[-2]``` would be the second from last, and so on
 
-**Modifying List Elements**
+
+# Modifying List Elements
 
 Elliot has left, and our new friend is Sam. We can replace Elliot with Sam by using the following code:
 
@@ -95,7 +97,7 @@ my_list[1] = "Sam"
 print(my_list)
 ```
 
-**Removing List Elements**
+# Removing List Elements
 
 You can remove elements in a list by using the ```.remove()``` method.
 
@@ -112,17 +114,65 @@ my_list.remove("Harry")
 ... Harry will be removed from the list
 
 
-**Two-Dimentional (2D) Lists**
+# Two-Dimensional Arrays (Lists)
 
 We can add multiple lists into a single lists
 
 Example:
 ```
-people_plus_heights = [["Tom", 18], ["Elliot", 21], ["Harry", 14], ["Scott", 16], ["Fred", 9]]
+people_plus_scores = [["Tom", 18], ["Elliot", 21], ["Harry", 14], ["Scott", 16], ["Fred", 9]]
 ```
 
 If we wanted to append a sub-list to this list:
 
 ```
-people_plus_heights.append(["Joseph", 15])
+people_plus_scores.append(["Joseph", 15])
 ```
+
+It may be easier to format 2D lists in a different way to help with understanding:
+```
+people_plus_scores = [
+  ["Tom", 18],
+  ["Elliot", 21],
+  ["Harry", 14],
+  ["Scott", 16],
+  ["Fred", 9]
+]
+```
+
+Accessing 2D lists is the same as a normal list, however we request 2 index values as opposed to 1.\
+To get the value we use **row** and **column**. Example, we are looking for Scott's score:
+
+```
+scotts_score = people_plus_scores[3][1]
+print(scotts_score)
+```
+
+Modifying two-dimensional lists works the same way. We are going to change Harry's score to 15:
+
+```
+people_plus_scores = [
+  ["Tom", 18],
+  ["Elliot", 21],
+  ["Harry", 14],
+  ["Scott", 16],
+  ["Fred", 9]
+]
+
+people_plus_scores[2][1] = 15
+```
+
+Modifying with negative indices (counting back from the end value):
+
+```
+people_plus_scores = [
+  ["Tom", 18],
+  ["Elliot", 21],
+  ["Harry", 14],
+  ["Scott", 16],
+  ["Fred", 9]
+]
+
+people_plus_scores[-3][-2] = 15
+```
+... this will change Harry's score to 15 using negative indices
