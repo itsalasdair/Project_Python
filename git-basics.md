@@ -50,4 +50,4 @@ Committed!
 git log
 
 
-# Staging -> To Commit
+Staging -> To Commit
