@@ -15,7 +15,7 @@ Not used to login, used to track changes
 git config --global user.name "My Name"
 ```
 ```
-git config --global user..email "myemail@domain.com"
+git config --global user.email "myemail@domain.com"
 ```
 
 # Initialise your Local Repository
