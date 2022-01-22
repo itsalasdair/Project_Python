@@ -9,7 +9,7 @@ apt install -y git
 
 Not used to login, used to track changes
 
-git config --global user.name "My Name"
+git config --global user.name "My Name"\
 git config --global user..email "myemail@domain.com"
 
 # Initialise your Local Repository
@@ -31,7 +31,7 @@ git status
 
 # Commit to Remote Repository
 
-git commit -m "My notes"
+git commit -m "My notes"\
 -m = message
 
 # Add the Remote Repository
