@@ -1,3 +1,8 @@
+# Python Operators
+
+This is a cheat-sheet on Python operators. They are also notes for me whilst I go on my Python journey
+
+
 # Comments
 
 ```
@@ -120,3 +125,47 @@ greeting_text = "Hello there, "
 question_text = "How are you doing?"
 full_text = greeting_text + question_text
 print(full_text)
+```
+
+# Plus Equals
+
+When you have a variable already with data in it, with Plus Equals, you can add to the variable value.
+
+Example:
+
+```
+distance_walked_miles = 9
+
+distance_walked_miles += 2
+```
+... this will print out the value of 9 + 2.
+
+This can also be used for strings.
+
+```
+my_song = "Hey ho here we go"
+my_song += ", I am marching"
+```
+... ```my_song``` will print: "Hey ho here we go, I am marching"
+
+
+# Multi-Line strings
+
+To use multi-line strings, we will need to use ```""" or '''``` around our text:
+
+```
+my_text = """
+this is the
+text that
+I would
+like to display
+"""
+```
+... ```my_text``` would print:
+
+```
+this is the
+text that
+I would
+like to display
+```
