@@ -179,7 +179,7 @@ people_plus_scores[-3][-2] = 15
 
 ___
 
-Using ```.remove```, we can remove data from a value within the list. Let's add another column to our list - age:
+Using ```.remove```, we can remove data from a value within the list, it will remove the **first matching instance** of the value in a list/sub-list. Let's add another column to our list - age:
 
 ```
 names_scores_age = [
@@ -204,7 +204,7 @@ names_scores_age = [
 names_scores_age[1].remove(13)
 ```
 
-# Round-Up of Lists
+# Example of Usages
 
 ```
 # Users, clothes size and whether they have expedited shipping
@@ -230,3 +230,14 @@ customer_data_final = customer_data + new_data
 # Final values
 print(customer_data_final)
 ```
+
+# Additional Python List Methods
+
+```.count()``` - A list method to count the number of occurences of an element in a list
+```.insert()``` - A list method to insert a value into a specific index number of a list
+```.pop()``` - A list method to remove a value from a specific index number of a list
+```.range()``` - A method function to create a sequence of Integers
+```.len()``` - A list function to get the length of a list
+```.sort() / .sorted()``` - A method function to sort a list
+
+ 
