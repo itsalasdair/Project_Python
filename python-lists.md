@@ -207,7 +207,7 @@ names_scores_age[1].remove(13)
 # Round-Up of Lists
 
 ```
-# Your code below: 
+# Users, clothes size and whether they have expedited shipping
 customer_data = [
   ["Ainsley", "Small", True],
   ["Ben", "Large", False],
@@ -215,13 +215,18 @@ customer_data = [
   ["Depak", "Medium", False]
 ]
 
+# Modifying expedited shipping for Chandi to False
 customer_data[2][2] = False
+# Removing shipping preferences for Ben
 customer_data[1].remove(False)
 
+# Adding new clients
 new_data = [
   ["Amit", "Large", True], ["Karim", "X-Large", False]
 ]
+# Concatonating previous and new users in to new value
 customer_data_final = customer_data + new_data
 
+# Final values
 print(customer_data_final)
 ```
