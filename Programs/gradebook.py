@@ -24,7 +24,8 @@ gradebook[5][1] = 98
 # Removing Poetry grade score
 gradebook[2].remove(85)
 # Appending Poetry to Pass grade
-# Didn't use append, accidentally orphaned the "Pass" value. Regenerated with below command:
+# gradebook[2] = "Pass" caused orphaned 2nd list index
+# Didn't use append, accidentally orphaned the "Pass" value*. Regenerated with below command:
 gradebook[2] = [["Poetry", "Pass"]]
 
 # Merging of last_semester_gradebook and gradebook
