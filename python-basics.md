@@ -169,3 +169,19 @@ text that
 I would
 like to display
 ```
+
+# User Input
+
+You can grab user input with the ```input``` operator. This will assign the variable the input given
+
+In the example, ```fav_fruit``` will capture user input and assign the value to that variable:
+
+```
+fav_fruit = input("What is your favourite fruit?")
+```
+
+You can output the users' input to console:
+
+```
+print("Nice! I like " + fav_fruit " too!")
+```
