@@ -2,7 +2,7 @@
 
 This is  home for all my Python code and notes whilst learning Python3 from scratch
 
-I will be followin the Codecademy Python3 Pro course and my notes and code will follow that syllabus
+I will be following the Codecademy Python3 Pro course and my notes and code will follow that syllabus
 
 ## Contents
 
