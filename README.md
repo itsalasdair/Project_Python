@@ -7,7 +7,7 @@ I will be following the Codecademy Python3 Pro course and my notes and code will
 ## Contents
 
 - [Git Basics](git-basics.md)
-- [Python Basics](python-basics.md]
+- [Python Basics](python-basics.md)
 - [Control Flow](control-flow.md)
 - [Python Operators](python-operators.md)
 - [Python Lists I](python-lists-1.md)
