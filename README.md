@@ -1,4 +1,4 @@
-# Code_Projects
+# Project_Python
 
 This is  home for all my Python code and notes whilst learning Python3 from scratch
 
