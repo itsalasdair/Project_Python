@@ -6,7 +6,6 @@ I will be following the Codecademy Python3 Pro course and my notes and code will
 
 This Repository is a work in progress and will be frequently added to and developed over time
 
-___
 
 
 ## Contents
