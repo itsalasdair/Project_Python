@@ -4,6 +4,11 @@ This is  home for all my Python code and notes whilst learning Python3 from scra
 
 I will be following the Codecademy Python3 Pro course and my notes and code will follow that syllabus
 
+This Repository is a work in progress and will be frequently added to and developed over time
+
+___
+
+
 ## Contents
 
 - [Git Basics](git-basics.md)
