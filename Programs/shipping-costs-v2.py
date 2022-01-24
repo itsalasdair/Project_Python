@@ -4,7 +4,9 @@
 # To add:
 # "Press Any Key to Close/Finish"
 
-print("<------ Giga-Deliveries ------>")
+print("")
+print("<------| Giga-Deliveries |------>")
+print("")
 print("")
 # Input Menu to select type of delivery
 shipping_type = int(input("""Please enter your preferred shipping:
