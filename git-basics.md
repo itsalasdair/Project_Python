@@ -86,3 +86,7 @@ To update the local repository or clone with the remote respository you can:
 ```
 git pull
 ```
+
+### Reconnecting to Remote repository
+```
+git remote add the_repo_name https://github.com/repo/repo.git
