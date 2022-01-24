@@ -90,3 +90,9 @@ git pull
 ### Reconnecting to Remote repository
 ```
 git remote add the_repo_name https://github.com/repo/repo.git
+```
+
+### Show Connected Remote Repositories
+```
+git remote -v
+```
