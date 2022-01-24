@@ -1,36 +1,43 @@
 # Codecademy Project to Calculate the costs of shipping based on weight
 
-
-weight = 18
-ground_flat = 20
-ground_prem_flat = 125
-drone_flat = 0
+# float() to accept decimal input via commandline
+weight = float(input("What does your package weigh?: ",))
 
 
 # Ground Shipping
+ground_flat_charge = 20.00
+
 if weight <= 2:
-  cost_ground = weight * 1.5 + ground_flat
+  ground_cost = weight * 1.50
 elif weight <= 6:
-  cost_ground = weight * 3.0 + ground_flat
+  ground_cost = weight * 3.00
 elif weight <= 10:
-  cost_ground = weight * 4.00 + ground_flat
+  ground_cost = weight * 4.00
+elif weight > 10:
+  ground_cost = weight * 4.75
 else:
-  cost_ground = weight * 4.75 + ground_flat
-print("Ground Shipping: $", + cost_ground)
+  print("Mega!")
+
+print("Ground Shipping: $", ground_cost + ground_flat_charge)
+
 
 # Ground Shipping Premium
 # Normal Ground Shipping + £125
-ground_premium_cost = cost_ground + ground_prem_flat
-print("Ground Shipping Premium: $", + ground_premium_cost)
+ground_prem_flat_charge = 125.00
+
+print("Ground Premium: $", ground_cost + ground_prem_flat_charge)
 
 
 # Drone Shipping
 if weight <= 2:
-  cost_air = weight * 4.50 + drone_flat
+  drone_cost = weight * 4.50
 elif weight <= 6:
-  cost_air = weight * 9.00 + drone_flat
-elif weight <= 10:
-  cost_air = weight * 12.00 + drone_flat
+  drone_cost = weight * 9.00
+elif weight <=10:
+  drone_cost = weight * 12.00
+elif weight > 10:
+  drone_cost = weight * 14.25
 else:
-  cost_air = weight * 14.25 + drone_flat
-print("Drone Shipping: $", + cost_air)
+  print("Mega!")
+
+print("Drone Shipping: $", drone_cost)
