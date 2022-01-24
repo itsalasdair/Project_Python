@@ -4,13 +4,14 @@
 # To add:
 # "Press Any Key to Close/Finish"
 
-
+# Input Menu to select type of delivery
 shipping_type = int(input("""Please enter your preferred shipping:
 1.) Ground
 2.) Ground Premium
 3.) Drone
 """))
 
+# Shipping for normal Ground delivery
 if shipping_type == 1:
     # Experimental: clear()
     ground_flat_charge = 20.00
@@ -28,6 +29,7 @@ if shipping_type == 1:
     print("Ground Shipping Total: $", ground_cost + ground_flat_charge)
 
 
+# Shipping for Premium Ground Delivery
 elif shipping_type == 2:
 
     ground_prem_flat_charge = 125.00
@@ -44,7 +46,7 @@ elif shipping_type == 2:
 
     print("Ground Shipping Total: $", ground_prem_cost + ground_prem_flat_charge)
 
-
+# Shipping for Drone Delivery
 elif shipping_type == 3:
 
     drone_weight = float(input("Please enter parcel weight: "))
@@ -59,5 +61,6 @@ elif shipping_type == 3:
 
     print("Drone Shipping Total: $", drone_cost)
 
+# Error for none 1, 2, 3 input
 else:
     print("ERROR: Please enter 1, 2 or 3.")
