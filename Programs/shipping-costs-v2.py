@@ -13,7 +13,7 @@ shipping_type = int(input("""Please enter your preferred shipping:
 1.) Ground
 2.) Ground Premium
 3.) Drone
-"""))
+> """))
 
 # Shipping for normal Ground delivery
 if shipping_type == 1:
