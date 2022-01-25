@@ -31,6 +31,8 @@ empty_list = []
 
 Methods, and List Methods allow you to create, manipulate and delete data within a variable.
 
+The List Methods will always follow the form of `list_name.method()`
+
 The `.append()` method allow you to add an element to the end of a list
 
 Example (either ' or " can be used):
