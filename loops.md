@@ -53,3 +53,37 @@ for the_lines in range(5):
 ```
 
 ## 'While' Loops
+
+A `while` loop performs a set of operations as long as a condition is met/True.
+
+
+
+This `while` loops will remain True until the count reaches 3:
+
+```
+count = 0
+
+while count <= 3:
+  print(count)
+  count += 1
+```
+
+This `while` loop will count down from 10 and finish at 0
+
+```
+countdown = 10
+print("Starting While Loop")
+while countdown >= 0:
+  print("Count is currently " + str(countdown))
+  countdown -= 1
+  print("- - - - - -")
+print("Count finished")
+```
+... the same outcome, but coded differently:
+```
+countdown = 10
+while countdown >= 0:
+  print(countdown)
+  countdown -= 1
+print("We have liftoff!")
+```
