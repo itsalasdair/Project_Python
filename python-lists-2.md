@@ -145,6 +145,9 @@ print(len(superLongList))
 ... output: `10`
 
 
+To return the length of a list you can also do `mylist.len()`
+
+
 **.sort()**
 
 Sorting index elements into alphabetical or numerical order can be done with `.sort()`. It modifies the existing list.
